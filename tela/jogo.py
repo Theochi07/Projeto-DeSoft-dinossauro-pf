@@ -8,9 +8,8 @@ from config import (LARGURA, ALTURA, FPS, PRETO, AZUL, VELOCIDADE_INICIAL, TEMPO
                     PONTOS_PARA_VENCER, SAIR, GAME_OVER, VITORIA)
 from personagem.dino import criar_dino, desenhar_dino
 from obstaculos.obstaculos import criar_obstaculo, desenhar_obstaculo, criar_escudo, desenhar_escudo
-from mecanica.movimento import pular, atualizar_dino, mover_obstaculos
-from mecanica.colisao import bateu
-from mecanica.fases import calcular_fase, calcular_velocidade, sortear_intervalo
+from mecanica.mecanica import (pular, atualizar_dino, mover_obstaculos, bateu,
+                               calcular_fase, calcular_velocidade, sortear_intervalo)
 from cenario.cenario import escrever, desenhar_cenario, desenhar_chao
 from sons.sons import tocar, tocar_musica
 
