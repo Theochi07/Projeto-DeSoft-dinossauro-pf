@@ -67,3 +67,6 @@ Por dentro, o jogo é feito de funções, listas e dicionários. O dinossauro e 
 ## Créditos
 - `personagem/personagem.png`: T-Rex original em pixel art, desenhado para o jogo. Quer trocar o personagem? É só colocar outro PNG com fundo transparente no lugar desse arquivo.
 - `pulo.wav`, `fase.wav`, `batida.wav` e `musica.wav`: gerados por programa pelo grupo.
+
+## link do vídeo
+https://youtu.be/XYIxqBGkPt4
